@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <title>tableau complex</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+                       }
+    </style>
+    <body>
+        <h1> Tableau Complex</h1>
+        <h2>Fusionner des cellules en colonnes </h2>
+        <table >
+            <tr >
+                <th>Nom</th>
+                <th colspan="2">Telephone</th>
+            </tr>
+            <tr >
+                <td>Abassi Hamid</td>
+                <td>061233445</td>
+                <td>069876534</td>
+            </tr>
+        </table>
+        <h2>Fusionner des cellules en lignes </h2>
+        <table >
+            <tr >
+                <th>Nom</th>
+                <td>Abassi Hamid</td>
+            </tr>
+           
+            <tr >
+                <th rowspan=2> Telephone</th>
+                <td>061233445</td>
+            </tr>
+            <tr>
+                <td>06345678</td>   
+            </tr>
+        </table>
+
+        <h2>Fusionner des cellules </h2>
+        <table>
+            <tr>
+                <td colspan="2">Colonnes 1 et 2 fusionnées</td>
+                <td>colonne 3 </td>
+                <td colspan="2">Colonnes 4 et 5 fusionnées</td>
+            </tr>
+            <tr>
+                <td>Colonne 1</td>
+                <td>Colonne 2</td>
+                <td>Colonne 3</td>
+                <td>Colonne 4</td>
+                <td>Colonne 5</td>   
+            </tr>
+            <tr>
+                <td>Colonne 1</td>
+                <td colspan="3">Colonnes 2 , 3 et 4 fusionnées</td>
+                <td>Colonne 5</td>
+            </tr>
+        </table>
+        
+    </body>
+</html>
