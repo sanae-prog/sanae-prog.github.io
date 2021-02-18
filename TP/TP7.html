@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+    <title>Les formulaires </title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+</head>
+<body>
+<header>
+<!-- Header -->
+      <header id="header">
+        <div class="inner">
+          <a href="index.html" class="logo">html / css</a>
+          
+        </div>
+      </header>
+
+<h1 style="color : #F27E63 ; font-size: 30px ; text-align: center;  ">Les formulaires</h1>
+
+ <form method="post" action="traitement.php">
+ 	<p>
+ 		<b>Informations personnelles:</b>
+ 		<br><br>
+ 		<label for="Nom">
+ 			Nom
+ 			</label>
+ 			<br>
+ 			<input type="text" name="Nom" id="Nom">
+ 			<br><br>
+ 		<label for="Prenom">
+ 			Prenom
+ 			</label>
+ 			<br>
+ 			<input type="text" name="Prenom" id="Prenom">
+ 			<br><br>
+ 			<label for="Date de naissance">
+ 				Date de naissance
+ 			</label>
+ 			<br>
+ 			<input type="Date" name="Date de naissance" id="Date de naissance">
+ 			<label for="Lieu">
+ 				Lieu
+ 			</label>
+ 			<input type="text" name="Lieu" id="Lieu">
+ 			<br><br>
+ 			<label for="Adresse">
+ 					Adresse
+ 			</label>
+ 			<br>
+ 			<input type="text" name="Adresse" id="Adresse">
+ 			<br><br>
+ 			<label for="E-Mail">
+ 				E-Mail
+ 				<br>
+ 			</label>
+ 			<input type="email" name="E-Mail" id="E-Mail">
+ 			<br><br>
+ 			<label for="N.Téléphne">
+ 				N.Téléphne
+ 			</label>
+ 			<br>
+ 			<input type="tel" name="N.Téléphne" id="N.Téléphne">
+ 			<br><br>
+ 			<b>Information bac:</b>
+ 			<br><br>
+ 			<label for="CNE">
+                 CNE
+ 			</label>
+ 			<br>
+ 			<input type="text" name="CNE" id="CNE">
+ 			<br><br>
+ 			<label for="Année">
+ 				Année
+ 			</label>
+ 			<br>
+ 			<input type="text" name="Année" id="Année">
+ 			<br><br>
+ 			<label for="Filliere-select">
+ 				Filliere
+ 			</label>
+ 			<br>
+ 			<select name="Filliere" id="Filliere-select">
+            <option value="">--Selectionner--</option>
+            <option value="Science Math">Science Math</option>
+    		<option value="Science Physique">Science Physique</option>
+    		<option value="Science de la Vie et Terre">Science de la Vie et Terre</option>
+  			</select>
+			<br><br>
+			<label for="Mention-select">
+ 				Mention
+ 			</label>
+ 			<br>
+ 			<select name="Mention" id="Mention-select">
+            <option value="">--Selectionner--</option>
+            <option value="Tres bien">Tres bien</option>
+    		<option value="Bien">Bien</option>
+    		<option value="Assez bien">Assez bien</option>
+    		<option value="Passable">Passable</option>
+  			</select>
+			<br><br>
+			<label for="Note">
+                 Note
+ 			</label>
+ 			<br>
+ 			<input type="text" name="Note" id="Note">
+ 			<br><br>
+ 			<label for="story">Vos compétences
+ 			</label>
+ 			<br>
+ 			<textarea id="story" name="story" rows="5" cols="33"> Vos compétences...</textarea>
+ 			<br><br>
+ 			<p> Voulez vous vraimment valider ces informations</p>
+ 			<input type="radio" name="gender" value="Oui" checked> Oui<br>
+ 			<input type="radio" name="gender" value="Non">Non<br><br>
+ 			<input type="submit">
+			</p>
+		</form>
+	</body>
+	</html>

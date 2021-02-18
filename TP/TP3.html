@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Les Liens - HTML </title>
+	<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+	.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F27E63;
+  color: white;
+  text-align: center;
+
+	}
+	p {
+		 font-family: verdana;
+		 color: gray;
+		 font-size: 15px;
+		 text-align: justify;
+		 margin: 25px 50px 75px 100px;
+		
+  	
+  	}
+  	h1 {
+  		color : #F27E63 ;
+  		 font-size: 30px ;
+  		  text-align: center;
+  	}
+  	ul , #s3 , #s4 {
+  		text-align: justify;
+		 margin: 25px 50px 75px 100px;
+  	}
+</style>
+</head>
+<body>
+	<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">html / css</a>
+					
+				</div>
+			</header>
+
+		<h1>Lien vers les différentes sections de la même page</h1>
+	<ul>
+		<li><a href="#s1"> Section 1</a></li>
+		<li><a href="#s2"> Section 2</a></li>
+		<li><a href="#s3"> Section 3</a></li>
+		
+	</ul>
+	<hr>
+	<h1>Les Liens (links)</h1>
+	<section id="s1">
+		<h1>Les liens externes</h1>
+		<p>
+			Un lien externe est un lien qui part d'une page d'un site et mène les utilisateurs un autre fichier d'une autre site.
+		</p>
+		<p> Exemple de lien externe: <br>
+			<!-- Lien Vers Le site de la FSE Rabat -->
+			<a href="https://www.fse.um5.ac.ma/"> Le site WEB de la FSE</a>
+		</p>
+	</section>
+	<hr>
+
+	<section id="s2">
+		<h1>Les attributs title et target</h1>
+		<p>L'utilisation de l'attribut target permet de diriger l'ouverture d'un document cible vers une fenêtre déterminée du navigateur. Il est possible d'ouvrir une page cible dans la fenêtre contenant le lien, ou dans une seconde fenêtre ou encore dans des cadres (ou frames).</p>
+
+		<p>Cet attribut est surtout utilisé dans le cas ou une page Internet est structurée autour des cadres. En effet, dans ce contexte particulier, les pages cibles risquent de s'ouvrir dans le mauvais cadre. Par exemple, si vous avez défini un cadre dont le contenu serait composé essentiellement de liens (ex. : un sommaire) et un autre permettant d'y afficher des pages liées. En actionnant un des liens, la page cible s'ouvrirait par défaut dans le cadre "sommaire" et non dans le cadre conteneur.</p>
+		<p>Exemple :
+			<a href="https://www.fse.um5.ac.ma/" target="_parent" title="Le Site de la FSE"> Le site Web de la FSE</a>
+		</p>
+		
+		
+	</section>
+	<hr>
+	<h1>Les liens internes </h1>
+	<section id="s3">
+		naviguer d'une page à l'autre dans un même dossier :<br>		
+		<a href="tp3.pdf" title="Lien interne"> Lien vers un fichier dans le même répértoire </a>
+		<a href="../s3/TP2.html"><div>DIV : Lien vers fichier dans different répértoire</div></a>
+	</section>
+	<hr>
+	<div id="s4">
+	<h2><a href="s6">Section 4</a></h2>
+	<p>
+		<a href="#top">Vers le haut (#Top)</a><br>
+		<a href="#">Vers le haut (#)</a>
+	</p>
+	</div>
+	<div class="footer">
+  	Fse.tice 2020 copyright
+	</div>
+</body>
+</html>
